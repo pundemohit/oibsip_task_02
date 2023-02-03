@@ -1,0 +1,320 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.navbar{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+}
+
+.navh:hover{
+    color: yellow;
+}
+
+.right{
+    float: right;
+}
+
+.nhead{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.head{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.htext{
+    
+    padding: 2rem;
+    display: grid;
+    justify-content: left;
+    align-self: center;
+    margin-top: 3.5rem;
+}
+
+.htext h4{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+.htext h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+.htext h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.head_img{
+    margin-left: 5.5rem;
+    height: 400px;
+}
+.igbg{
+    background-image: url(images/ib.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 500px;
+}
+
+.about{
+    background-color: rgb(27, 27, 27);
+    
+}
+
+.aboutText{
+    padding: 4rem;
+    color: white;
+    text-align: center;
+}
+
+.headsize{
+    text-shadow: 3px 3px #FF0000;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.about_image{
+    height: 450px;
+    border-radius: 20px;
+    margin: 4rem;
+    border: 2px solid rgb(39, 37, 37);
+    box-shadow: 3px 3px 12px yellow;
+}
+
+.aboutText p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: 100;
+}
+
+.aboutText h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+
+.btn-tk{
+    background-color: yellow;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-tk:hover{
+    border: 2px solid yellow;
+    color: yellow;
+}
+
+.skills{
+    background-color: black;
+    color: white;
+}
+
+.bor{
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgb(27, 27, 27);
+    cursor: pointer;
+    border-radius: 15px;
+    
+}
+.bor:hover{
+    border: 3px solid rgb(27, 27, 27);
+    background-color: black;
+}
+
+.skill_img{
+    height: 50px;
+    width: 50px;
+    margin-right: 2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    transition: transform .2s;
+}
+.skill_img:hover{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+}
+
+.transit{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: white;
+    transition: 0.2s;
+}
+
+.transit:hover{
+    letter-spacing: 6px;
+    color: yellow;
+}
+
+.h22{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: yellow;
+    text-shadow: 3px 3px rgb(128, 99, 99);
+    letter-spacing: 2px;
+}
+
+#sp{
+    padding-top: 4rem;
+    text-align: center;
+    color: yellow;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+#sh{
+    text-align: center;
+    text-shadow: 2.5px 2.5px red;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 3rem;
+    transition: .3s;
+}
+.sk{
+    padding-bottom: 3rem;
+}
+
+.exp_img{
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 4.25rem;
+    height: 5.5rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.exp_col{
+    border: 2px solid black;
+    margin: 1rem;
+    background-color: black;
+    border-radius: 15px;
+    margin-bottom: 4rem;
+    transition: transform .2s;
+}
+
+.exp_col:hover{
+    cursor: pointer;
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.1);
+    background-color: rgb(37, 30, 71);
+    
+}
+
+.exp_name{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 550;
+    color: white;
+    text-shadow: 1px 1px red;
+}
+
+.exp_p{
+    color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    text-align: center;
+    font-weight: 550;
+    margin-bottom: 2rem;
+}
+
+.exp{
+    background-color: rgb(27, 27, 27);
+    
+}
+.exp_head{
+    color: white;
+    text-align: center;
+    padding-top: 3rem;
+    margin-bottom: 2rem;
+    text-shadow: 2.5px 2.5px red;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 1.2rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid yellow;
+    resize: none;
+    color: yellow;
+}
+
+.contact{
+    background-color: black;
+    color: white;
+}
+
+.contact h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-shadow: 2px 2px red;
+    padding: 3rem 0;
+    
+}
+
+.conhead2{
+    font-family: 'Times New Roman', Times, serif;
+    color: yellow;
+}
+.concol h6{
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 2rem;
+}
+.con_h{
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 2rem;
+}
+
+.con_h b{
+    color: yellow;
+}
+.con_img{
+    height: 2.5rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    transition: transform .2s;
+}
+
+.con_img:hover{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.4);
+    cursor: pointer;
+}
+
+.con_btn{
+    width: 5rem;
+    margin-left: 42%;
+    margin-bottom: 2rem;
+}
+
+.yel{
+    color: yellow;
+    
+}
+
+footer{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: rgb(27, 27, 27);
+    padding-bottom: 1rem;
+    background-color: black;
+}
